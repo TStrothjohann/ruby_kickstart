@@ -1,3 +1,12 @@
+#Thomas Strothjohann
+def ten_twenty(n)
+  if n % 2 == 0
+    return 10
+  else
+    return 20
+  end
+end
+
 #paul fitz
 def ten_twenty(n)
 	if n % 2 == 0
