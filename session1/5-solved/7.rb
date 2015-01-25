@@ -158,6 +158,17 @@ def pirates_say_arrrrrrrrr(string)
   new_string
 end
 
+# Gabe
+def pirates_say_arrrrrrrrr(string)
+  letters_array = string.split(//)
+  return_string = ""
+  letters_array.each_with_index do |letter, index|
+    next if index == string.length - 1
+    return_string << string[index + 1] if letter.downcase == 'r'
+  end
+  return_string
+end
+
 #solved by Riz
 
 def pirates_say_arrrrrrrrr(string)
@@ -166,11 +177,10 @@ def pirates_say_arrrrrrrrr(string)
   add_next = false
   string = string.split("").each do |letter|
     if letter == "r" || letter =="R"
-      #puts string[index], index
       if index + 1 < string.size
-      #if index < string.size
         add_next= index + 1
         newString << string[add_next]
       end
-    
     end
+  end
+end

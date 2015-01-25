@@ -1,12 +1,10 @@
 # Thomas Strothjohann
 def arithmetic2(a, b)
-  if a == b
-    puts "none of the given numbers is smallest - they equal."
-    elsif a > b
-    puts b*0.5
+  if  a > b
+    return b*0.5
   else
-    puts a*0.5
-  end  
+    return a*0.5  
+  end
 end
 
 #paul fitz
@@ -101,5 +99,25 @@ def arithmetic2(a, b)
 		return a / 2.0.to_f
 	else
 		return b / 2.0
+	end
+end
+
+# Gabe
+def arithmetic2(a,b)
+  
+  if a < b
+    a/2.0
+  
+  else
+    b/2.0
+  
+  end
+
+# Rizwan Ali
+def arithmetic2(a, b)
+	if a < b
+		return a/2.0
+	else 
+		b/2.0
 	end
 end
