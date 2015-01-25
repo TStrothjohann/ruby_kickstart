@@ -1,3 +1,14 @@
+# Thomas Strothjohann
+def arithmetic2(a, b)
+  if a == b
+    puts "none of the given numbers is smallest - they equal."
+    elsif a > b
+    puts b*0.5
+  else
+    puts a*0.5
+  end  
+end
+
 #paul fitz
 def arithmetic2(a, b)
 	if a < b
